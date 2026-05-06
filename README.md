@@ -56,3 +56,47 @@
 <img width="831" height="630" alt="Screenshot 2026-05-06 234644" src="https://github.com/user-attachments/assets/48c94d11-d97d-435b-abb7-470c576f022e" />
 
   <img width="885" height="643" alt="Screenshot 2026-05-06 234654" src="https://github.com/user-attachments/assets/2a65fe17-4570-402b-8d0e-a5e124b19c3f" />
+
+
+==================================================
+        MODEL PERFORMANCE REPORT
+==================================================
+  R² Score    (Train): 0.5279
+  R² Score    (Test) : 0.4526  ← 45.3% variance explained
+  MSE         (Test) : 2900.19
+  RMSE        (Test) : 53.85
+  MAE         (Test) : 42.79
+  Cross-Val R² (5-fold): 0.4823 ± 0.0493
+==================================================
+\ Good model performance for clinical data.
+   The model explains 45.3% of disease progression variance.
+
+ 
+============================================================
+     FINAL RESEARCH SUMMARY
+============================================================
+
+📊 Model: Multiple Linear Regression
+   y = β₀ + β₁·Age + β₂·Sex + ... + β₁₀·Insulin
+
+📈 Performance:
+   R² Score     : 0.4526 → Model explains 45.3% of variance
+   RMSE         : 53.85 disease progression units
+   Cross-Val R² : 0.4823 ± 0.0493 (robust)
+
+🔬 Key Research Findings:
+   1. BMI & Glucose are the STRONGEST risk drivers
+   2. HDL (good cholesterol) acts as a risk REDUCER
+   3. Blood pressure contributes independently to progression
+   4. Age effect is moderate but statistically significant
+
+💡 Clinical Implications:
+   → Interventions targeting BMI and glucose control
+      would have the highest impact on slowing disease progression
+   → Increasing HDL (exercise, diet) may be protective
+
+⚠️  Limitations:
+   → Assumes linear relationships (may miss non-linear effects)
+   → Dataset is normalized; original units needed for clinical use
+   → 442 patients — larger dataset would improve generalizability
+============================================================
