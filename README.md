@@ -47,3 +47,12 @@
 - Limitations
   Linearity: Assumes a straight-line relationship; may underfit if the biological progression is non-linear.
   Sample Size: Based on 442 patients; larger datasets are recommended for broader clinical generalizability.
+
+  Images:
+
+  <img width="1301" height="589" alt="Screenshot 2026-05-06 234557" src="https://github.com/user-attachments/assets/1e482d88-4da6-4014-b7b3-0e7d00cc4e02" />
+
+<img width="1697" height="625" alt="Screenshot 2026-05-06 234618" src="https://github.com/user-attachments/assets/83f76622-4934-432b-a799-0ae2a9858b87" />
+<img width="831" height="630" alt="Screenshot 2026-05-06 234644" src="https://github.com/user-attachments/assets/48c94d11-d97d-435b-abb7-470c576f022e" />
+
+  <img width="885" height="643" alt="Screenshot 2026-05-06 234654" src="https://github.com/user-attachments/assets/2a65fe17-4570-402b-8d0e-a5e124b19c3f" />
